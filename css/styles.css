@@ -1,0 +1,310 @@
+body {
+  margin: auto;
+  margin-top: -38px;
+  width: 1600px;
+  background-color: #e9f0fd;
+}
+
+header {
+  width: 1600px;
+  height: 90px;
+  background-color: #ffffff;
+}
+
+.logo {
+  float:left;
+  display: inline-block;
+  padding-top: 38px;
+  padding-right: 570px;
+  padding-bottom: 30px;
+  padding-left: 245px;
+  height: 20px;
+  width: 80px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #0f0101;
+  padding-right: 30px;
+} 
+
+a:hover {
+  color: #1abc9c;
+}
+
+#footer-link:hover {
+  color: #1abc9c;
+}
+
+.navigation-bar {
+  display: inline-block;
+  font-family: "Open sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin: 0px;
+  padding-top: 35px;
+}
+
+.navigation {
+  margin-top: 38px;
+}
+
+article {
+  width: 1600px;
+  height: 600px;
+  margin: 0px;
+}
+
+.second-layer {
+  display: inline-block;
+  width: 1125px;
+  position: relative;
+  top: -379px;
+  left: 245px;
+
+}
+
+.banner {
+  display: block;
+  width: 1600px;
+  height: 600px;
+}
+
+.banner-name {
+  margin: 0px;
+  padding-bottom: 0px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#ffffff;
+}
+
+.banner-description {
+  margin: 0px;
+  padding-top: 15px;
+  font-family: "https://fonts.googleapis.com/css?family=Roboto:100", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.banner-text {
+  margin-top: -128px;
+  margin-left: 185px;
+}
+
+#arrow-left {
+  margin-left: 0px;
+  opacity: 0.75;
+}
+
+#arrow-left:hover {
+  opacity: 1.0;
+}
+
+#arrow-right {
+  margin-left: 1005px;
+  margin-top: -70px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  opacity: 0.75;
+}
+
+#arrow-right:hover {
+  opacity: 1.0;
+}
+
+main {
+  width: 1600px;
+  height: 680px;
+  background-color: #e9f0fd;
+  display: block;
+  margin-top: -2px;
+}
+
+h1 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #515151;
+  padding-left: 610px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin: 0px;
+}
+
+.line {
+  display: block;
+  background-color: #1abc9c;
+  height: 7px;
+  width: 164px;
+  margin-left: 730px;
+  margin-bottom: 80px;
+}
+
+.row {
+  height: 320px;
+  width: 1355px;
+  padding-left: 245px;
+  background-color: #e9f0fd;
+}
+
+.section {
+  display: block;
+  margin: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  width: 260px;
+  height: 325px;
+  float: left;
+  background-color: #e9f0fd;
+}
+
+.img {
+  height: 286px;
+  width: 260px;
+  
+}
+
+.black {
+  margin-top: 0px;
+  margin-right: -4px;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background: #323232;
+  text-align: left;
+}
+
+.black:hover {
+  color: #1abc9c;
+}
+
+.grey {
+  display: inline-block;
+  width: 55px;
+  height: 40px;
+  background: #8c8c8c;
+}
+
+p {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-top: 11px;
+}
+
+.name-price {
+  margin-left: 0px;
+  margin-top: -5px;
+}
+
+footer {
+  background-color: #323232;
+  width: 1600px;
+  height: 90px;
+}
+
+#footer-text {
+  font-family: "Open sans", Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0px;
+  padding-left: 595px;
+  padding-top: 35px;
+}
+
+#footer-link {
+  color: #ffffff;
+  opacity: 1.0;
+}
+
+.block {
+  display: block;
+  margin: 0px;
+  width: 235px;
+  height: 262px;
+  border: 10px;
+  border-color: grey;
+  border-style: solid;
+  background: black;
+  opacity: 0.6;
+  
+}
+
+.button-raw {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  position: relative;
+  top: -228px;
+  left: 35px;
+}
+
+#button-add {
+  display: block;
+  margin: 35px;
+  width: 166px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  position: relative;
+  top: -260px;
+  left: 2px;
+}
+
+#button-like {
+  display: block;
+  margin: 0px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  float: left;
+} 
+
+#button-share {
+  display: block;
+  margin: 0px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  float: left;
+}
+
+#button-time {
+  display: block;
+  margin: 0px;
+  padding-right: 0px;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  float: left;
+}
+
+
+
+#h-effect {
+  display: block;
+  margin-left: -10px;
+  margin-top: -218px;
+  width: 255px;
+  height: 40px;
+  background-color: #1abc9c;
+  opacity: 1;
+} 
