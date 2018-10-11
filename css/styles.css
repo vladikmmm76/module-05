@@ -107,29 +107,44 @@ article {
 }
 
 .banner-text {
-  margin-top: -128px;
-  margin-left: 185px;
+  position: absolute;
+  top: -45px;
+  left: 415px;
 }
 
 #arrow-left {
   width: 105px;
   height: 105px;
-  margin-left: 0px;
+  background-color: #1abc9c;
   opacity: 0.75;
 }
 
+#arrow-left-1 {
+  margin: 0px;
+  position: fixed;
+  top: 32px;
+  left: 280px;
+}
+
 #arrow-left:hover {
-    opacity: 1.0;
+  opacity: 1.0;
 }
 
 #arrow-right {
   width: 105px;
   height: 105px;
+  background-color: #1abc9c;
   position: absolute;
-  top: 50px;
+  top: 53px;
   left: 1255px;
   transform: translateY(-50%);
   opacity: 0.75;
+}
+
+#arrow-right-1 {
+  position: fixed;
+  top: 32px;
+  left: 50px;
 }
 
 #arrow-right:hover {
@@ -141,7 +156,6 @@ main {
   height: 680px;
   background-color: #e9f0fd;
   display: block;
-  margin-top: -2px;
 }
 
 h1 {
@@ -180,11 +194,10 @@ h1 {
   height: 325px;
   float: left;
   background-color: #e9f0fd;
- 
 }
 
 .img {
-  height: 286px;
+  height: 281px;
   width: 260px;
 }
 
@@ -194,8 +207,8 @@ h1 {
   display: inline-block;
   width: 200px;
   height: 40px;
-  background: #323232;
   text-align: left;
+  background-color: rgba(0,0,0,1);
 }
 
 .black:hover {
@@ -206,7 +219,7 @@ h1 {
   display: inline-block;
   width:   55px;
   height: 40px;
-  background: #8c8c8c;
+  background-color: rgba(0,0,0,0.6);
 }
 
 p {
@@ -219,8 +232,8 @@ p {
 }
 
 .name-price {
-  margin-left: 0px;
-  margin-top: -5px;
+  display: block;
+
 }
 
 .block {
@@ -231,12 +244,9 @@ p {
   border: 10px;
   border-color: white;
   border-style: solid;
-  background: black;
-  opacity: 0.6;
   position: relative;
   top: -463px;
   transform: translateY(50%);
-
 }
 
 .button-raw {
@@ -254,57 +264,61 @@ p {
   width: 166px;
   height: 50px;
   border-color: white;
-  background: black;
+  background-color: black;
   position: relative;
   top: 70px;
   left: 2px;
 }
 
+.button-add {
+  background-color: #1abc9c;
+}
+
 .button-like {
   display: block;
-  margin: 0px;
-  padding-right: 10px;
+  margin-right: 10px;
   width: 50px;
   height: 50px;
   border-color: white;
-  background: black;
+  background-color: black;
   float: left;
+}
+
+.button-like:hover {
+  background-color: #1abc9c;
 }
 
 .button-share {
   display: block;
-  margin: 0px;
-  padding-right: 10px;
+  margin-right: 10px;
   width: 50px;
   height: 50px;
   border-color: white;
-  background: black;
+  background-color: black;
   float: left;
+}
+
+.button-share:hover {
+  background-color: #1abc9c;
 }
 
 .button-time {
   display: block;
-  margin: 0px;
-  padding-right: 0px;
+  margin-right: 0px;
   width: 50px;
   height: 50px;
   border-color: white;
-  background: black;
+  background-color: black;
   float: left;
 }
 
-.h-effect {
-  display: block;
-  margin-left: -10px;
-  margin-top: 133px;
-  width: 255px;
-  height: 40px;
+.button-time:hover {
   background-color: #1abc9c;
-  opacity: 1;
 }
 
 .block:hover .section {
-  display: block
+  display: block;
+  
 }
 
 footer {
