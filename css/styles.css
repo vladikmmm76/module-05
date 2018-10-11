@@ -13,13 +13,23 @@ header {
 
 .logo {
   float:left;
-  display: inline-block;
-  padding-top: 38px;
+  display: block;
+  margin: 0px;
+  padding-top: 24px;
   padding-right: 570px;
   padding-bottom: 30px;
   padding-left: 245px;
-  height: 20px;
   width: 80px;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #555252;
+}
+
+.logo:first-letter {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #1abc9c;
 }
 
 li {
@@ -30,7 +40,7 @@ a {
   text-decoration: none;
   color: #0f0101;
   padding-right: 30px;
-} 
+}
 
 a:hover {
   color: #1abc9c;
@@ -63,11 +73,11 @@ article {
 
 .second-layer {
   display: inline-block;
+  padding-left: 245px;
   width: 1125px;
-  position: relative;
-  top: -379px;
-  left: 245px;
-
+  position: absolute;
+  top: 380px;
+  transform: translateY(-50%);
 }
 
 .banner {
@@ -89,7 +99,7 @@ article {
 .banner-description {
   margin: 0px;
   padding-top: 15px;
-  font-family: "https://fonts.googleapis.com/css?family=Roboto:100", Arial, Helvetica, sans-serif;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 200;
   color: #ffffff;
@@ -102,19 +112,23 @@ article {
 }
 
 #arrow-left {
+  width: 105px;
+  height: 105px;
   margin-left: 0px;
   opacity: 0.75;
 }
 
 #arrow-left:hover {
-  opacity: 1.0;
+    opacity: 1.0;
 }
 
 #arrow-right {
-  margin-left: 1005px;
-  margin-top: -70px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  top: 50px;
+  left: 1255px;
+  transform: translateY(-50%);
   opacity: 0.75;
 }
 
@@ -166,12 +180,12 @@ h1 {
   height: 325px;
   float: left;
   background-color: #e9f0fd;
+ 
 }
 
 .img {
   height: 286px;
   width: 260px;
-  
 }
 
 .black {
@@ -190,7 +204,7 @@ h1 {
 
 .grey {
   display: inline-block;
-  width: 55px;
+  width:   55px;
   height: 40px;
   background: #8c8c8c;
 }
@@ -200,13 +214,97 @@ p {
   color: #ffffff;
   font-size: 16px;
   text-transform: uppercase;
-  margin-left: 15px;
-  margin-top: 11px;
+  padding-left: 15px;
+  padding-top: 11px;
 }
 
 .name-price {
   margin-left: 0px;
   margin-top: -5px;
+}
+
+.block {
+  display: block;
+  margin: 0px;
+  width: 235px;
+  height: 262px;
+  border: 10px;
+  border-color: grey;
+  border-style: solid;
+  background: black;
+  opacity: 0.6;
+  position: relative;
+  top: -463px;
+  transform: translateY(50%);
+
+}
+
+.button-raw {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  position: relative;
+  top: 100px;
+  left: 35px;
+}
+
+.button-add {
+  display: block;
+  margin: 35px;
+  width: 166px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  position: relative;
+  top: 70px;
+  left: 2px;
+}
+
+.button-like {
+  display: block;
+  margin: 0px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  float: left;
+}
+
+.button-share {
+  display: block;
+  margin: 0px;
+  padding-right: 10px;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  float: left;
+}
+
+.button-time {
+  display: block;
+  margin: 0px;
+  padding-right: 0px;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  background: black;
+  float: left;
+}
+
+.h-effect {
+  display: block;
+  margin-left: -10px;
+  margin-top: 133px;
+  width: 255px;
+  height: 40px;
+  background-color: #1abc9c;
+  opacity: 1;
+}
+
+.block:hover .section {
+  display: block
 }
 
 footer {
@@ -229,82 +327,3 @@ footer {
   color: #ffffff;
   opacity: 1.0;
 }
-
-.block {
-  display: block;
-  margin: 0px;
-  width: 235px;
-  height: 262px;
-  border: 10px;
-  border-color: grey;
-  border-style: solid;
-  background: black;
-  opacity: 0.6;
-  
-}
-
-.button-raw {
-  display: inline-block;
-  width: 170px;
-  height: 50px;
-  position: relative;
-  top: -228px;
-  left: 35px;
-}
-
-#button-add {
-  display: block;
-  margin: 35px;
-  width: 166px;
-  height: 50px;
-  border-color: white;
-  background: black;
-  position: relative;
-  top: -260px;
-  left: 2px;
-}
-
-#button-like {
-  display: block;
-  margin: 0px;
-  padding-right: 10px;
-  width: 50px;
-  height: 50px;
-  border-color: white;
-  background: black;
-  float: left;
-} 
-
-#button-share {
-  display: block;
-  margin: 0px;
-  padding-right: 10px;
-  width: 50px;
-  height: 50px;
-  border-color: white;
-  background: black;
-  float: left;
-}
-
-#button-time {
-  display: block;
-  margin: 0px;
-  padding-right: 0px;
-  width: 50px;
-  height: 50px;
-  border-color: white;
-  background: black;
-  float: left;
-}
-
-
-
-#h-effect {
-  display: block;
-  margin-left: -10px;
-  margin-top: -218px;
-  width: 255px;
-  height: 40px;
-  background-color: #1abc9c;
-  opacity: 1;
-} 
